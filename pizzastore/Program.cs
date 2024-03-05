@@ -1,10 +1,12 @@
 ﻿namespace pizzastore
 {
-    internal class Program
+    public class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            
+            store store = new store();
+            store.Start();
         }
     }
 }
